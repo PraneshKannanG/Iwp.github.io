@@ -1,0 +1,163 @@
+* {
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fefefe;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 120px;
+    font-weight: 100;
+    text-align: center;
+    padding: 2em 0px;
+    font-size: 10vmin;
+    line-height: 1.1;
+    max-inline-size: 15ch;
+    margin: auto;
+}
+#hello{
+    color: black; 
+    font-family: 'Orienta', sans-serif; 
+    font-size: 40px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: center;
+}
+#aboutme {
+    color: black; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 30px; line-height: 60px; 
+    font-weight: normal; 
+    margin-bottom: 0px; 
+    margin-top: 40px; text-align: center; 
+    text-shadow: 0 1px 1px #fff;
+}
+#aboutme a:link,#aboutme a:visited {
+    background-color: #C0C0C0;
+    color: black;
+    border: 2px solid black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+#aboutme a:hover,#aboutme a:active {
+    background-color: #696969;
+    color: black;
+  }
+nav {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: black;
+    margin: 0% auto;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    clear: both;
+    overflow: hidden;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+nav .brand {
+    float: left;
+    font-weight: bold;
+    height: inherit;
+    color: whitesmoke !important;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul {
+    padding: 0;
+    margin: 0 auto !important;
+    float: right;
+    max-width: 100%;
+}
+nav ul li {
+    list-style: none;
+    float: left;
+}
+nav ul li a {
+    color: white !important;
+    display: inline-block;
+    width: 100px;
+    line-height: inherit;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+nav ul li a:hover, nav ul li a:active {
+    background-color: #ddd;
+}
+.section {
+    width: 100%;
+    min-height: 55em;
+}
+.lorem {
+    background: #696969;
+    background-image: linear-gradient(to bottom right,#696969,#C0C0C0);
+}
+.ipsum {
+    background: #696969;
+    background-image: linear-gradient(to bottom right,#696969,#C0C0C0);
+}
+.dolor {
+    background: #696969;
+    background-image: linear-gradient(to bottom right,#696969,#C0C0C0);
+}
+.amet {
+    background: #696969;
+    background-image: linear-gradient(to bottom right,#696969,#C0C0C0);
+}
+/* Helper class */
+.small {
+    height: 70px !important;
+    line-height: 70px;
+}
+/*font-face*/
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+
+
+
+
+  
