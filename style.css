@@ -624,7 +624,11 @@ nav ul li a:hover, nav ul li a:active {
     transform: translate3d(36vw, 34vh, 91px);
     background: #d99126;
 }
-
+.pro {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
